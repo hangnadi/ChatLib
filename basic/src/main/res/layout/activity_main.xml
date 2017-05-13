@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:chat="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tokopedia.example.MainActivity">
+
+    <com.tokopedia.chat2.ChatView
+        android:id="@+id/customview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        chat:backgroundSrc="@color/md_light_blue_A200"
+        chat:leftBubbleColor="@color/md_red_A200"
+        chat:leftMessageColor="@color/md_white_1000"
+        chat:rightBubbleColor="@color/md_yellow_A200"
+        chat:rightMessageColor="@color/md_black_1000"
+        chat:centerBubbleColor="@color/md_purple_A200"
+        chat:centerMessageColor="@color/md_yellow_A200"
+        />
+
+</RelativeLayout>

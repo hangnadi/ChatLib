@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:textColor="@color/md_grey_500"
+        tools:text="Today"
+        android:maxLines="1"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/text_name"
+        android:textColor="@color/md_green_400"
+        android:textStyle="bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/left_bubble">
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="256dp"
+            android:padding="12dp"
+            android:textIsSelectable="true"
+            android:textColor="@color/md_white_1000"
+            android:text ="@string/text_lorem_ipsum"
+            android:textSize="14sp"
+            />
+
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_gravity="end"
+            android:layout_below="@id/text_message"
+            android:layout_alignEnd="@id/text_message"
+            android:textColor="@color/md_blue_900"
+            android:text="@string/text_time"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

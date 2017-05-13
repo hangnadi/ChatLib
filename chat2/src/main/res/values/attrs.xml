@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChatXYZ">
+        <attr name="backgroundSrc" format="reference" />
+
+        <attr name="leftBubbleColor" format="color" />
+        <attr name="leftMessageColor" format="color" />
+        <attr name="leftTimeColor" format="color" />
+
+        <attr name="rightBubbleColor" format="color" />
+        <attr name="rightMessageColor" format="color" />
+        <attr name="rightTimeColor" format="color" />
+
+        <attr name="centerBubbleColor" format="color" />
+        <attr name="centerMessageColor" format="color" />
+        <attr name="centerTimeColor" format="color" />
+
+    </declare-styleable>
+</resources>
